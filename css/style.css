@@ -302,11 +302,6 @@ hr {
     z-index: 1;
     color: #fff;
   }
-/*
-  #yo li {
-    float: left;
-  }
-*/
   .hovicon:after {
     pointer-events: none;
     position: absolute;
