@@ -37,13 +37,13 @@
                   </ul>
 	              </div>
 	          </section>
-	        </div><!-- For screenFiller -->
+	        </div><!-- For Placing of picture and links -->
 	        <div class="arrow text-center">
 	           <img src="images/down-arrow.png"></img>
 	        </div>
   	  </div><!--For header-->
 
-    <div id="content">
+    <div id="content"><!-- For the remainder of the page, ie, after scrolled down -->
      <div class="row text-center main-nav" id="nav">
           <div class="col-sm-2"><a href="#">Home</a></div>
           <div class="col-sm-2"><a href="#navprojects">Projects</a></div>
@@ -51,47 +51,30 @@
           <div class="col-sm-2"><a href="#navcurricular">Co-Curricular</a></div>
           <div class="col-sm-2"><a href="resources/resume.pdf" target="blank">Resume</a></div>
           <a href="#" id="pull" class="fMenu">Navigate <span id="navArrow"><i class="fa fa-arrow-circle-o-up" aria-hidden="true"></i></span></a>
-        </div>
+     </div>
+     <div class="justify">
+        <div class="text-center" style="font-size: 200%">
+      	     Hello! I am Nachiket Dhamankar, an <span class="imp">engineering student</span> in true sense. I switch modes between technical skills, cultural interests and sports; and quite effective at that. I’m an avid learner and of the opinion that the more you know the less it is. I am a <span class="imp">coder</span> at brain and <a name="navprojects"></a><span class="imp">funky</span> at heart.
+      	     <hr/>
+        </div> <!--For text center-->
 
-      <div class="justify"><!-- id="givePaddingforMobile" was removed on 12/2/17 at 8:27pm-->
-      	<div class="text-center" style="font-size: 200%">
-      	Hello! I am Nachiket Dhamankar, an <span class="imp">engineering student</span> in true sense. I switch modes between technical skills, cultural interests and sports; and quite effective at that. I’m an avid learner and of the opinion that the more you know the less it is. I am a <span class="imp">coder</span> at brain and <a name="navprojects"></a><span class="imp">funky</span> at heart.
-      	<hr/>
-      	</div> <!--For text center-->
-
-      	<!--<div id="#projects"> Changed on 12/2/17 at 8:31pm because it wasnt used in css-->
-      		<!--<h1 style="color: #7C523A">Who do you think you are?</h1>      Dark enough, but need to stand out from the grey
-      		<h1 style="color: #995819">Who do you think you are?</h1>          Lighter, but should not be out of color scheme-->
-      		<!--<h1 style="color: #341910">Who do you think you are?</h1>         FINALISED NO-->
+        <!-- Projects -->
       	<span class="titles"> Projects</span>
       	<ul>
-      		<li class="list" style="">Smart Parking System</li>
-      		<div class="row simpleText" style="margin-left: 5%;">
-      			<div class="col-sm-6 listMargin">
-      				<img src="resources/images/smartParking.jpeg"></img>
-      			</div>
-      			<div class="col-sm-6 listMargin">
-      				Designed and presented a smart car parking solution as a part of an Internet of Things (IoT) internship program which lasted for more than 70 hours. It was implemented using Arduino, Raspberry Pi 3, ESP8266 with MQTT protocol and Firebase. Web version was designed using Bootstrap, HTML5 and CSS3; The android app was developed with MIT App Inventor.
-      			</div>
-      		</div>
-			<li class="list" style="">Weather Application</li>
-      		<div class="row simpleText" style="margin-left: 5%;">
-      			<div class="col-sm-6 listMargin">
-      				<img src="resources/images/weatherApp.png"></img>
-      			</div>
-      			<div class="col-sm-6 listMargin">
-      				Designed and Developed a complete weather application using the open weather map API. The application makes API calls by city name to the open weather map API using Ajax to get response in JSON format. It mainly retrieves the current weather as well as the weather for a specified number of days for any city. Its features include API calls with AJAX, current weather information, weather forecast information and jQuery to animate text.<a name="navcacademics"></a>
-      			</div>
-      		</div>
-<!--
-          <li class="list">Project2</li>
-          <div class="row simpleText">
-          <div class="col-sm-6"><img src="http://dc-cdn.s3-ap-southeast-1.amazonaws.com/dc-Cover-5jdhviv8kjge8q9a1if37dupe1-20160724010535.Medi.jpeg"></img></div>
-          <div class="col-sm-6">BROOOOO THISSSS Project NO 2 BROOOOOOOOOO   is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their<a name="navcacademics"></a> infancy. Various versions have evolved over the years, sometimes by accident</div>
-          </div>
-      	</ul>
--->
-      	<!--</div> Changed on 12/2/17 at 8:31pm because it wasnt used in css-->
+            <!-- Project 1 Smart Parking System -->
+      		    <li class="list">Smart Parking System</li>
+      		      <div class="row simpleText" style="margin-left: 5%;">
+      			         <div class="col-sm-6 listMargin">
+      				             <img src="resources/images/smartParking.jpeg"/>
+      			         </div>
+      			         <div class="col-sm-6 listMargin">
+      				              Designed and presented a smart car parking solution as a part of an Internet of Things (IoT) internship program which lasted for more than 70 hours. It was implemented using Arduino, Raspberry Pi 3, ESP8266 with MQTT protocol and Firebase. Web version was designed using Bootstrap, HTML5 and CSS3; The android app was developed with MIT App Inventor.
+      			         </div>
+      		      </div>
+
+             <!-- Project 2 Weather Application -->
+ 			         <li class="list">Weather Application</li>
+
 
         <hr/>
         <span class="titles"> Academics</span>
@@ -124,26 +107,7 @@
         <!--</div> Changed on 12/2/17 at 8:31pm because it wasnt used in css-->
 
         <hr/>
-<!--
-        <div id="#curricular">
-          <h2 class="titles">Curricular</h2>
-          <div id="culturals">
-            <ol>
-              <h3><li class="list">Literary</h3>
-                <div class="row">
-                <div class="col-sm-6 simpleText"></div>
-                <div class="col-sm-6 simpleText"></div>
-                </div>
-              </li>
 
-
-              <h3><li class="list">Drama</h3>
-
-
-              </li>
-            </ol>
-          </div>
--->
 
 
         <div id="#curricular">
@@ -328,11 +292,3 @@ function googleTranslateElementInit() {
 
 </body>
 </html>
-<!--
- #7C523A
- #341910
- #995819
- #1B1515
-
-
--->
